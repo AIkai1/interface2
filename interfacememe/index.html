@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Archive Browser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="./scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Internet Meme Archive</h1>
+            <p>Discover classic memes from the golden age of the internet</p>
+        </div>
+    </header>
+    
+    <main class="main-layout">
+        <aside class="filters-section">
+            <h2>Filter Memes</h2>
+            <div id="filters" class="filters">
+                <!-- Filters will be dynamically rendered here -->
+            </div>
+        </aside>
+        
+        <section class="memes-section">
+            <div id="loading" class="loading">
+                <div class="loading-spinner"></div>
+                <p>Loading memes...</p>
+            </div>
+            <div id="memes-container" class="memes-grid">
+                <!-- Memes will be dynamically rendered here -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>

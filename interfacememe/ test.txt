@@ -1,0 +1,49 @@
+Bouw een interactieve webinterface waarin bezoekers oude internetmemes kunnen ontdekken,
+filteren en bekijken. Je gebruikt moderne ES6+ JavaScript-technieken om data asynchroon op te halen en dynamisch weer te geven.
+Gebruik fetch() en async/await om de data op te halen en weer te geven. 
+Pas ES6-modules en arrow functions toe om je code modulair en overzichtelijk te houden. 
+Ontwerp een dynamische interface waarin gebruikers memes kunnen filteren op jaartal of categorie. 
+Zorg dat de interface real-time reageert zonder de pagina te herladen.
+
+
+Wat je moet bouwen
+
+
+1. data ophalen
+gebruik fetch() om de json-data in te laden
+gebruik async/await en foutafhandeling (try/catch)
+Laat een "loading.."- boodschap zien zolang de data nog geladen word
+
+
+2. Data weergeven
+Toon de memes als kaarten of tegels met:
+afbeelding
+titel
+jaartal
+
+
+3. filterfunctionaiteit
+Voeg knoppen of dropdowns toe waaree de gebruiker kan filteren op:
+jaartaal(bijv. 2010-2015 / 2016-2020)
+categorie (bijv. animal, animation, relationship)
+
+De interface moet real-time reageren zonder herladen van de pagina
+
+4. code-structuut (ES6)
+
+Gebruik minimaal drie aparte modules (deze zijn al voor jou gemaakt):
+DataService.js - haalt data op via fetch
+uitenderer.js - maakt de HTML-output en udate de interface
+main.js - koppe;t alle functies uit de dataService.js en uiRender.js
+
+
+Gebruik moderne syntax:
+let /const
+arrow functions
+template literals
+import / export
+
+Gebruik een normale layout die er gewoon generic uit ziet geen rare gradients of neon borders of onnodige hovers op divs. zorg dat het er dus niet vibe coded uit ziet en gebruik inspiratie van andere sites.
+(NOTE: heel veel files zijn al voor je gemaakt dus check de directories goed zodat je geen dingen op nieuw gaat genereren)
+
+
