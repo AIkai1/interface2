@@ -86,5 +86,12 @@
         "category": "sport",
         "image": "venom.webp",
         "description": "an extraordinary posterizing dunk by the the infamous symbiote Venom"
+    }, {
+        "id": 12,
+        "title": "salsa",
+        "year": 2025,
+        "category": "dance",
+        "image": "salsa.gif",
+        "description": "Man, Look at those moves"
     }
 ]
